@@ -16,15 +16,16 @@ module.exports = {
       platform: 'github',
 
       // 其他的 Vssue 配置
-      owner: 'suntaoapp',
-      repo: 'https://github.com/suntao123671/vuepress',
+      owner: 'suntao123671',
+      repo: 'AVIC_FILE',
       clientId: '7a5d8ec17b3feaa2874b',
       clientSecret: 'be09102783368f8798603c77b3f5ace75ca8d1f2',
     },
     },
     // 头部
+     // 头部
     head: [
-        
+       
     ],
     // 网站标题及描述
     title: 'V6业务基础平台',
@@ -32,7 +33,7 @@ module.exports = {
     // 主题配置
     themeConfig: {
         // 提取markdown中h2 和 h3 标题，显示在侧边栏上。
-        sidebarDepth: 0,
+        sidebarDepth: 2,
         // 文档更新时间
         lastUpdated: '更新时间',
         // logo
@@ -49,33 +50,9 @@ module.exports = {
                     title: '指南',
                     collapsable: false,
                     children: [
-					['/guide/','产品介绍'],
-					['/guide/jsbps','快速入门'],
-					['/guide/hdsc','使用手册']					
-                    ]
-                },
-                {
-                    title: '部署',
-                    collapsable: false,
-                    children: [
-                        '/guide/cjwt',
-                        '/guide/rjrz',
-                        '/guide/gxdm',
-                        '/guide/bqsm'
-                    ]
-                },
-                {
-                    title: '开发',
-                    collapsable: false,
-                    children: [
-                        '/guide/jzzc'
-                    ]
-                },
-				{
-                    title: '规范',
-                    collapsable: false,
-                    children: [
-                        '/guide/jzzc'
+					
+					['/guide/jsbps','技术白皮书']
+										
                     ]
                 }
             ],
@@ -87,12 +64,6 @@ module.exports = {
                 'V2.4',
             ]
         },
-        // 假如你的文档仓库和项目本身不在一个仓库：
-        docsRepo: 'elunez/eladmin-doc',
-        // 假如文档不是放在仓库的根目录下：
-        docsDir: 'docs',
-        // 默认是 false, 设置为 true 来启用
-        editLinks: true,
         // 默认为 "Edit this page"
         editLinkText: '在 GitHub 上编辑此页！'
     }
