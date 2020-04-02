@@ -1,6 +1,5 @@
 # EL-ADMIN-DOC
-
-EL-ADMIN 文档源码
+V6业务基础平台文档管理 文档源码
 
 ## Build Setup
 ``` bash
